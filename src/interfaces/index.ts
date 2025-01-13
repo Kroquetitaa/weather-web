@@ -1,0 +1,1 @@
+export { type IRouteDefinition, TRoutePaths} from '@interfaces/routes/routes.types'

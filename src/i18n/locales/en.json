@@ -1,0 +1,55 @@
+{
+    "page": {
+      "Login": {
+        "welcome": "Login in Weather Web",
+        "email": "Email",
+        "emailRequired": "Email required",
+        "emailInvalid": "Invalid email",
+        "password": "Password",
+        "passwordRequired": "Password required",
+        "passwordInvalid": "The password must be at least 6 characters long",
+        "btnAccess": "Login",
+        "errorCredentials": "Incorrect credentials. Please try again."
+      },
+      "HomePage": {
+        "selectCity": "Choose a city from the sidebar menu",
+        "loading": "Loading...",
+        "error": "Error: {{message}}",
+        "weatherIn": "Weather in {{city}}",
+        "tempMax": "Max",
+        "tempMin": "Min",
+        "humidity": "Humidity",
+        "wind": "Wind",
+        "feelsLike": "Feels like"
+      },
+      "ContactPage": {
+        "contactFormTitle": "Contact Us",
+        "name": "Name",
+        "nameRequired": "Name is required",
+        "dob": "Date of Birth",
+        "dobRequired": "Date of birth is required",
+        "city": "City",
+        "cityRequired": "City is required",
+        "email": "Email",
+        "emailRequired": "Email is required",
+        "emailInvalid": "Please enter a valid email address",
+        "phone": "Phone",
+        "phoneRequired": "Phone number is required",
+        "phoneInvalid": "Please enter a valid phone number",
+        "formSent": "Your form has been sent successfully!",
+        "submit": "Submit"
+      }
+    },
+    "components": {
+      "Sidebar": {
+        "menu": "Menu",
+        "home": "Home"
+      },
+      "Topbar": {
+        "es": "Spanish",
+        "en": "English",
+        "closeSession": "Logout"
+      }
+    }
+  }
+  

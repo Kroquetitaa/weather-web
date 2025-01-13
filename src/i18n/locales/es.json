@@ -1,0 +1,54 @@
+{
+  "page": {
+    "Login": {
+      "welcome": "Inicia sesión en Wheater Web",
+      "email": "Correo electrónico",
+      "emailRequired": "El correo es obligatorio",
+      "emailInvalid": "El correo no es válido",
+      "password": "Contraseña",
+      "passwordRequired": "La contraseña es obligatoria",
+      "passwordInvalid": "La contraseña debe tener al menos 6 caracteres",
+      "btnAccess": "Iniciar sesión",
+      "errorCredentials": "Credenciales incorrectas. Inténtalo nuevamente."
+    },
+    "HomePage": {
+      "selectCity": "Escoge una ciudad en el menú lateral",
+      "loading": "Cargando...",
+      "error": "Error: {{message}}",
+      "weatherIn": "Clima en {{city}}",
+      "tempMax": "Máxima",
+      "tempMin": "Mínima",
+      "humidity": "Humedad",
+      "wind": "Viento",
+      "feelsLike": "Sensación térmica"
+    },
+    "ContactPage": {
+        "contactFormTitle": "Contáctanos",
+        "name": "Nombre",
+        "nameRequired": "El nombre es obligatorio",
+        "dob": "Fecha de Nacimiento",
+        "dobRequired": "La fecha de nacimiento es obligatoria",
+        "city": "Ciudad",
+        "cityRequired": "La ciudad es obligatoria",
+        "email": "Correo Electrónico",
+        "emailRequired": "El correo electrónico es obligatorio",
+        "emailInvalid": "Por favor ingresa un correo electrónico válido",
+        "phone": "Teléfono",
+        "phoneRequired": "El teléfono es obligatorio",
+        "phoneInvalid": "Por favor ingresa un número de teléfono válido",
+        "formSent": "¡Tu formulario ha sido enviado con éxito!",
+        "submit": "Enviar"
+      }
+  },
+  "components": {
+    "Sidebar": {
+      "menu": "Menú",
+      "home": "Inicio"
+    },
+    "Topbar": {
+      "es": "Español",
+      "en": "Inglés",
+      "closeSession": "Cerrar sesión"
+    }
+  }
+}

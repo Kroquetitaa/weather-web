@@ -1,0 +1,52 @@
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 1rem 2rem;
+    color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    
+    .topbar-left {
+      display: flex;
+      align-items: center;
+  
+      .language-select {
+        background-color: white;
+        color: #333;
+        border-radius: 8px;
+        padding: 0.4rem 1.5rem;
+        margin-right: 1rem;
+        font-size: 1rem;
+        cursor: pointer;
+        transition: background-color 0.3s, border-color 0.3s;
+  
+        &:focus {
+          outline: none;
+          background-color: #f1f1f1;
+          border-color: #4c6ef5;
+        }
+  
+        option {
+          font-size: 1rem;
+          padding: 1rem;
+        }
+      }
+  
+      .logout-btn {
+        background-color: #ff4d4f;
+        color: white;
+        border: none;
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+  
+        &:hover {
+          background-color: #d43636;
+        }
+      }
+    }
+  }
+  

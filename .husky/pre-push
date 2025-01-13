@@ -1,0 +1,44 @@
+#!/bin/sh
+#. "$(dirname -- "$0")/_/husky.sh"
+
+set +e
+RED='\e[31m'
+GREEN='\e[32m'
+BLUE='\e[34m'
+NC='\e[0m'
+
+echo ""
+echo "${BLUE}> Checking TypeScript....${NC}"
+echo ""
+
+npm run typecheck
+EXIT_STATUS=$?
+
+if [ "$EXIT_STATUS" != 0 ]; then
+  echo "${RED} --------------------------------${NC}"
+  echo "${RED}| Please correct the code types |${NC}"
+  echo "${RED} --------------------------------${NC}"
+  exit 1
+fi
+echo ""
+echo "${GREEN}> TypeScript passed successfully!${NC}"
+echo ""
+
+echo ""
+echo "${BLUE}> Running tests....${NC}"
+echo ""
+
+
+npm run test
+EXIT_STATUS=$?
+
+if [ "$EXIT_STATUS" != 0 ]; then
+  echo "${RED} ---------------------------------------------------${NC}"
+  echo "${RED}| Please correct your tests before pushing new code |${NC}"
+  echo "${RED} ---------------------------------------------------${NC}"
+  exit 1
+fi
+
+echo ""
+echo "${GREEN}> Test passed successfully!${NC}"
+echo ""
